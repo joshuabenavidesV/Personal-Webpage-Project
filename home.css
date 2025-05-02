@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+}
+.logo {
+    font-family: "Brush Script MT", cursive;
+    font-size: 30px;
+    color:white
+  }
+.navbar {
+    width: 98%;
+    background-color:black;
+    padding-left: 30px;
+    padding-right: 10px;
+    display: flex; 
+    justify-content: space-between;
+  }
+  .nav-item a {
+    display: inline-block;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: white;
+  }
+  .nav-links {
+    list-style: none;
+    display: flex; 
+  }
+  h2{
+    color: white;
+  }

@@ -2,28 +2,68 @@ body{
     background-color: black;
 }
 .logo {
-    font-family: "Brush Script MT", cursive;
-    font-size: 30px;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 22px;
     color:white
   }
 .navbar {
-    width: 98%;
-    background-color:black;
-    padding-left: 30px;
-    padding-right: 10px;
-    display: flex; 
-    justify-content: space-between;
+  width: 98%;
+  background-color:black;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: flex; 
+  justify-content: space-between;
   }
   .nav-item a {
     display: inline-block;
     padding: 5px 15px;
-    text-decoration: none;
+    text-decoration:none;
     color: white;
   }
   .nav-links {
     list-style: none;
     display: flex; 
   }
-  h2{
+  .Main-Page{
     color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    margin-top: 2px;
   }
+  .headshot-photo{
+    display: flex;
+    justify-content: center;
+  }
+  .captions{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: 0px;
+  }
+  .Intro-toquotes{
+    color: white;
+    margin: 2px;
+  
+  }
+  .Quotes{
+    color: white;
+    margin: 0px;
+    background-color: red;
+  }
+.spacing-quotes{
+  margin:3px;
+}
+footer img {
+  max-width: 20px;
+  height: 20px;
+}
+footer {
+  width: 99%;
+  padding-top: .5rem;
+  padding-bottom: 1rem ;
+  background-color: blue;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}

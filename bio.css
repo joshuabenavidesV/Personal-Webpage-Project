@@ -1,18 +1,27 @@
-body{
-    background-color: black;
+body {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(81, 130, 190, 0)
+    ),
+    url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8N10E81bzNfnE-t71g4lCvBaivnCcl6RQcg&s");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100%; 
+  margin: 1px;
 }
 .logo {
-    font-family: "Brush Script MT", cursive;
-    font-size: 30px;
-    color:white
-  }
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 22px;
+  color:black;
+}
 .navbar {
-    width: 98%;
-    background-color:black;
-    padding-left: 30px;
-    padding-right: 10px;
-    display: flex; 
-    justify-content: space-between;
+  width: 98%;
+  background-color:black;
+  padding-left: 5px;
+  padding-right: 1.3rem;
+  display: flex; 
+  justify-content: space-between;
+  margin-top: 0px;
   }
   .nav-item a {
     display: inline-block;
@@ -24,7 +33,58 @@ body{
     list-style: none;
     display: flex; 
   }
-  h2{
-    color: white;
-
+  .Main-Page{
+    color: black;
+    display: flex;
+    justify-content: center;
   }
+.hobbies{
+  color: white;
+  font-size: 30px;
+  margin: 2px;
+}
+.hobbies-section {
+  display: flex;
+  align-items: center; 
+  gap: 150px; 
+}
+.family{
+  color: white;
+  font-size: 30px;
+  margin: 2px;
+}
+.family-section {
+  display: flex;
+  align-items: center; 
+  gap: 150px; 
+}
+.curious{
+  color: white;
+  font-size: 30px;
+  margin: 2px;
+}
+.curious-section {
+  display: flex;
+  align-items: center; 
+  gap: 150px; 
+}
+.background-words{
+  background-color: white;
+}
+.hiking-pic{
+  display: flex;
+  justify-content: center;
+}
+footer img {
+  max-width: 20px;
+  height: 20px;
+}
+footer {
+  width: 100%;
+  padding-top: .5rem;
+  padding-bottom: 1rem ;
+  background-color: blue;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}

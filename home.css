@@ -4,7 +4,8 @@ body{
 .logo {
     font-family: 'Trebuchet MS', sans-serif;
     font-size: 22px;
-    color:white
+    color:white;
+    text-shadow: 1px 1px red;
   }
 .navbar {
   width: 98%;
@@ -19,6 +20,8 @@ body{
     padding: 5px 15px;
     text-decoration:none;
     color: white;
+    font-size: 20px;
+    font-weight: bolder;
   }
   .nav-links {
     list-style: none;
@@ -47,23 +50,24 @@ body{
   
   }
   .Quotes{
-    color: white;
+    color: black;
     margin: 0px;
-    background-color: red;
+    background-color: white;
   }
 .spacing-quotes{
   margin:3px;
 }
 footer img {
-  max-width: 20px;
-  height: 20px;
+  max-width: 30px;
+  height: 30px;
 }
 footer {
-  width: 99%;
-  padding-top: .5rem;
-  padding-bottom: 1rem ;
-  background-color: blue;
+  width: 100%;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem ;
+  background-color: white;
   display: flex;
   align-items: flex-end;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 200px;
 }

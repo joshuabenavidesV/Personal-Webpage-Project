@@ -13,6 +13,7 @@ body {
   font-family: 'Trebuchet MS', sans-serif;
   font-size: 22px;
   color:black;
+  text-shadow: 1px 1px red;
 }
 .navbar {
   width: 98%;
@@ -28,6 +29,8 @@ body {
     padding: 5px 15px;
     text-decoration: none;
     color: white;
+    font-size: 20px;
+    font-weight: bolder;
   }
   .nav-links {
     list-style: none;
@@ -67,6 +70,7 @@ body {
   display: flex;
   align-items: center; 
   gap: 150px; 
+  padding: 10px;
 }
 .background-words{
   background-color: white;
@@ -76,15 +80,16 @@ body {
   justify-content: center;
 }
 footer img {
-  max-width: 20px;
-  height: 20px;
+  max-width: 30px;
+  height: 30px;
 }
 footer {
   width: 100%;
-  padding-top: .5rem;
-  padding-bottom: 1rem ;
-  background-color: blue;
+  padding-top: 1rem;
+  padding-bottom: 0.2rem ;
+  background-color: white;
   display: flex;
   align-items: flex-end;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 200px;
 }
